@@ -2,7 +2,7 @@ package com.gt.transport;
 
 public class Bike extends AbstractVehicle {
 
-	Bike() {
+	public Bike() {
 		super(10, 2,new WEATHER[] {WEATHER.SUNNY,WEATHER.WINDY} );
 	}
 
